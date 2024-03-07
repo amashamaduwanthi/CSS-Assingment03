@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            overflow: hidden;
+        }
+        section{
+            width: 100vw;
+            height: 100vh;
+            border: 2px solid black;
+            position: relative;
+        }
+        #div1{
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            right: 0;
+            top: 0;
+            background-color: green;
+        }
+        #div2{
+            width: 50%;
+            height: 50%;
+            position: absolute;
+       left: 0;
+            top: 0;
+            background-color: orangered;
+        }
+        #div3{
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            background-color: orange;
+        }
+        #div4{
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            background-color:deeppink;
+        }
+        #div5{
+            width:250px ;
+            height:250px ;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            left: 0;
+            margin: auto;
+            background-color:white;
+        }
+
+        #circle1{
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: white;
+
+        }
+        #circle2{
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: white;
+
+        }
+        #circle3{
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: white;
+
+        }
+        #circle4{
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: white;
+
+        }
+        #circle5{
+            width: 150px;
+            height: 150px;
+            border-radius: 100%;
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: red;
+
+        }
+
+        #square1{
+            width: 75px;
+            height: 75px;
+
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: red;
+        }
+        #square2{
+            width: 75px;
+            height: 75px;
+
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: red;
+        }
+        #square3{
+            width: 75px;
+            height: 75px;
+
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: red;
+        }
+        #square4{
+            width: 75px;
+            height: 75px;
+
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: red;
+        }
+        #half1{
+            width: 150px;
+            height: 150px;
+            border-radius: 0 0 0  150px  ;
+            position: absolute;
+            right:  0;
+            top: 0;
+
+            background-color: white;
+
+        }
+        #half2{
+            width: 150px;
+            height: 150px;
+            border-radius: 0 0 150px 0;
+            position: absolute;
+            left:  0;
+            top: 0;
+
+            background-color: white;
+
+        }
+        #half3{
+            width: 150px;
+            height: 150px;
+            border-radius: 0  150px 0 0;
+            position: absolute;
+            left:  0;
+            bottom: 0;
+
+            background-color: white;
+
+        }
+        #half4{
+            width: 150px;
+            height: 150px;
+            border-radius:  150px 0 0 0;
+            position: absolute;
+           right:   0;
+            bottom: 0;
+
+            background-color: white;
+
+        }
+        #div19{
+            width: 12.5%;
+            height: 12.5%;
+            aspect-ratio: 1/1;
+            background-color: white;
+            border-radius: 0 0 100px 100px;
+
+
+            position: absolute;
+            left: 43.75%;
+            top: 0;
+
+            margin: auto;
+        }
+        #div20{
+            width: 12.5%;
+            height: 12.5%;
+            aspect-ratio: 1/1;
+            background-color: white;
+            border-radius: 100px 100px 0 0;
+
+
+            position: absolute;
+            right: 43.75%;
+            bottom: 0;
+
+            margin: auto;
+        }
+
+    </style>
+
+</head>
+<body>
+<section>
+    <div id="div1">
+        <div id="half1"></div>
+        <div id="circle1">
+            <div id="half5"></div>
+
+            <div id="square1"></div>
+
+
+</div>
+        </div>
+
+    <div id="div2">
+        <div id="half2"></div>
+        <div id="circle2">
+            <div id="square2"></div>
+        </div>
+    </div>
+    <div id="div3">
+        <div id="half3"></div>
+        <div id="circle3">
+            <div id="square3"></div>
+        </div>
+    </div>
+    <div id="div4">
+        <div id="half4"></div>
+        <div id="circle4">
+            <div id="square4"></div>
+        </div>
+    </div>
+    <div id="div5">
+        <div id="circle5">
+
+        </div>
+    </div>
+    <div id="div19">
+    </div>
+    <div id="div20">
+    </div>
+</section>
+</body>
+</html>
